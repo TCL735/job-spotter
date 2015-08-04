@@ -34,7 +34,7 @@ describe("React Testing", function () {
     // console.log(component.props);
     // console.log(component.props.children);
 
-    expect(component.props.className).to.equal('selections col-sm-3');
+    expect(component.props.className).to.equal('selections');
     expect(component.props.children.length).to.be.greaterThan(0);
     
     done();
