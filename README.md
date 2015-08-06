@@ -150,9 +150,9 @@ heroku addons:create cleardb
 ### Roadmap
 
 
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+View the project roadmap [here](https://waffle.io/unbiased-marsupial/job-spotter)
 
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/unbiased-marsupial/job-spotter/blob/master/CONTRIBUTING.md) for contribution guidelines.
