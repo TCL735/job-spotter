@@ -40,7 +40,7 @@ var Map = React.createClass({
           "<div>" + 
             "<h1>" + city.get("location") + "</h1>" +
             "<p>" + city.get("jobCount").toLocaleString() + (city.get("jobCount")>1 ? " jobs " : " job ")  + "available here!" + "</p>" +
-            "<p>" + "Average Salary: $" + city.get("avgSalary").toLocaleString() + "</p>"
+            "<p>" + "Average Salary: $" + Math.round(city.get("avgSalary")).toLocaleString() + "</p>"
           "</div>";
 
         var infowindow = new google.maps.InfoWindow({
